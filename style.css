@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'KodeMono'; /*a name to be used later*/
+    src: url('fonts/KodeMono-VariableFont_wght.ttf'); /*URL to font*/
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'KodeMono';
+}
+
+header {
+    background: linear-gradient(rgb(113, 113, 255), rgba(0,0,0,0));
+}
+
+button {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+svg {
+    width: 48px;
+    margin-left: 16px;
+}
+
+buttons {
+    justify-content: center;
+    display: flex;
+}
+
+.funnytext {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 560px;
+    margin-right: 560px;
+}
+
+.titletext{
+    justify-content: center;
+    display: flex;
+    margin-left: 720px;
+}
+
+.footertext { 
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    bottom: 5px;
+    margin-left: 895px;
+}
+
+.mystufftext {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.projects {
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.buttontext {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.descriptiontext {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+
+.text {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 24px;
+  color: white;
+  animation: floatText 120s linear infinite;
+}
+
+@keyframes floatText {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}

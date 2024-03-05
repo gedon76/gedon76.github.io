@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'KodeMono'; /*a name to be used later*/
+    src: url('../fonts/KodeMono-VariableFont_wght.ttf'); /*URL to font*/
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'KodeMono';
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    background: linear-gradient(rgb(88, 37, 206), rgba(0,0,0,0));
+}
+
+svg {
+    width: 48px;
+    margin-left: 16px;
+}
+
+.funnybutton {
+    justify-content: center;
+    display: flex;
+    margin-left: 340px;
+    margin-bottom: 80px;
+}
+
+.funnytext {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 360px;
+    margin-right: 360px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.funnytextbutdark {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 360px;
+    margin-right: 360px;
+    margin-bottom: 80px;
+}
+
+.funnytextbutsmaller {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    margin-left: 360px;
+    margin-right: 360px;
+    color: white
+}
+
+.titletext{
+    justify-content: center;
+    display: flex;
+    margin-left: 700px;
+}
+
+.footertext { 
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    bottom: 5px;
+    margin-left: 895px;
+}
+
+.mystufftext {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.projects {
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.buttontext {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.descriptiontext {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container {
+    border: 2px solid #ffffff; /* Белая рамка толщиной 2 пикселя */
+    max-width: 1900px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера на странице */
+    margin-top: 20px;
+}
+
+.text {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 24px;
+  color: white;
+  animation: floatText 120s linear infinite;
+}
+
+@keyframes floatText {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.white-box {
+    background-color: white;
+    padding: 150px;
+}
